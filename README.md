@@ -14,8 +14,6 @@ $ ./mydxx --run
 [ OK ] having fun anyway
 ```
 
-## 🐍 蛇，吃掉我所有的提交
-
 <div align="center">
 
 <picture>
@@ -23,17 +21,7 @@ $ ./mydxx --run
   <img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />
 </picture>
 
-*<sub>由 GitHub Actions 自动喂养，不用铲屎</sub>*
-
-</div>
-
-## 🌧️ 雨夜书签 · 龙族 × 九州 × 天之炽
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="rain quote" />
-
-*<sub>GitHub Actions 每日随机抽取一句 · 这场雨一直下</sub>*
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="random quote" />
 
 </div>
 
@@ -46,5 +34,3 @@ $ ./mydxx --run
 `>> connection closed. stay weird_`
 
 </div>
-
-<!-- indexed -->
