@@ -21,6 +21,12 @@ $ ./mydxx --run
   <img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />
 </picture>
 
+<img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="quote" />
+
+<br/>
+
+<img src="https://cataas.com/cat/gif" alt="cat" width="260" />
+
 </div>
 
 ---
