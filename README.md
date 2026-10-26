@@ -27,13 +27,13 @@ $ ./mydxx --run
 
 </div>
 
-## 🏮 赛博诗签 · 每日一句
+## 🌧️ 雨夜书签 · 龙族 × 九州 × 天之炽
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="poem" />
+<img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="rain quote" />
 
-*<sub>GitHub Actions 每日自动抽取一句古诗文，给你算一签</sub>*
+*<sub>GitHub Actions 每日随机抽取一句 · 这场雨一直下</sub>*
 
 </div>
 
