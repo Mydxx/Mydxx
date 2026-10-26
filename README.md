@@ -27,13 +27,13 @@ $ ./mydxx --run
 
 </div>
 
-## 🎲 随机抽一句程序员段子
+## 🏮 赛博诗签 · 每日一句
 
 <div align="center">
 
-<img src="https://readme-jokes.vercel.app/api?bgColor=0d1117&borderColor=00fff7&codeColor=ff00d4&qColor=00fff7&aColor=7b2ff7&textColor=c9d1d9" alt="random dev joke" />
+<img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="poem" />
 
-*<sub>每次刷新都不一样</sub>*
+*<sub>GitHub Actions 每日自动抽取一句古诗文，给你算一签</sub>*
 
 </div>
 
