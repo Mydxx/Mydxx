@@ -50,7 +50,7 @@
   <text x="450" y="118" text-anchor="middle" font-size="86" font-weight="bold" letter-spacing="14" class="mg">MYDXX</text>
   <text x="450" y="118" text-anchor="middle" font-size="86" font-weight="bold" letter-spacing="14" class="main">MYDXX</text>
 
-  <text x="450" y="148" text-anchor="middle" font-size="15" class="sub">// SYSTEM ONLINE · AI × CYBER SECURITY //</text>
+  <text x="450" y="148" text-anchor="middle" font-size="15" class="sub">// 以血为誓 · 以铁为证 //</text>
 
   <!-- 扫描线 -->
   <rect class="scanbar" width="900" height="46" fill="url(#scan)"/>
