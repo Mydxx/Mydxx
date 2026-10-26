@@ -2,7 +2,7 @@
 
 <img src="./assets/glitch-banner.svg" width="100%" alt="MYDXX" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00FFF7&center=true&vCenter=true&random=true&width=620&height=60&lines=%3E%20%E6%AD%A3%E5%9C%A8%E5%94%A4%E9%86%92%E6%B2%89%E7%9D%A1%E7%9A%84%E9%BE%99%E2%80%A6%E2%80%A6;%3E%20AI%20%E4%B8%8E%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%EF%BC%8C%E7%9A%86%E6%88%91%E6%89%80%E7%88%B1;%3E%20%E4%BB%A5%E8%A1%80%E4%B8%BA%E8%AA%93%EF%BC%8C%E4%BB%A5%E9%93%81%E4%B8%BA%E8%AF%81;%3E%20%E9%93%81%E7%94%B2%E4%BE%9D%E7%84%B6%E5%9C%A8%EF%BC%81)](https://github.com/Mydxx)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=7DD3FC&center=true&vCenter=true&random=true&width=620&height=60&lines=%3E%20%E6%AD%A3%E5%9C%A8%E5%94%A4%E9%86%92%E6%B2%89%E7%9D%A1%E7%9A%84%E9%BE%99%E2%80%A6%E2%80%A6;%3E%20AI%20%E4%B8%8E%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%EF%BC%8C%E7%9A%86%E6%88%91%E6%89%80%E7%88%B1;%3E%20%E4%BB%A5%E8%A1%80%E4%B8%BA%E8%AA%93%EF%BC%8C%E4%BB%A5%E9%93%81%E4%B8%BA%E8%AF%81;%3E%20%E9%93%81%E7%94%B2%E4%BE%9D%E7%84%B6%E5%9C%A8%EF%BC%81)](https://github.com/Mydxx)
 
 </div>
 
@@ -23,9 +23,13 @@ $ ./mydxx --run
 
 <img src="https://raw.githubusercontent.com/Mydxx/Mydxx/output/poem.svg" alt="quote" />
 
-<br/>
+</div>
 
-<img src="https://cataas.com/cat/gif" alt="cat" width="260" />
+<div align="center">
+
+<img src="./assets/rain-city.svg" width="100%" alt="" />
+
+<sub>第</sub> <img src="https://count.getloli.com/get/@Mydxx?theme=moe" height="18" /> <sub>位访客</sub>
 
 </div>
 
