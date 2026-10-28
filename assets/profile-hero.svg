@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mydxx - AI and Cyber Security">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110F"/>
+      <stop offset="0.55" stop-color="#081418"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="title" x1="90" y1="120" x2="520" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FDF4"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <circle cx="1040" cy="80" r="120" fill="#22D3EE" fill-opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1110" cy="270" r="110" fill="#22C55E" fill-opacity="0.08" filter="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" stroke="#94A3B8" stroke-opacity="0.18"/>
+  <rect x="0" y="0" width="7" height="320" rx="3.5" fill="url(#accent)"/>
+
+  <g transform="translate(48 36)">
+    <circle cx="7" cy="7" r="6" fill="#F87171"/>
+    <circle cx="29" cy="7" r="6" fill="#FBBF24"/>
+    <circle cx="51" cy="7" r="6" fill="#4ADE80"/>
+    <text x="76" y="13" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">mydxx@github: ~/profile</text>
+    <text x="1086" y="13" text-anchor="end" fill="#22C55E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">SYSTEM ONLINE</text>
+  </g>
+
+  <text x="48" y="112" fill="#22C55E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">$ whoami</text>
+  <text x="47" y="186" fill="url(#title)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="72" font-weight="700" letter-spacing="-2">Mydxx</text>
+  <text x="50" y="230" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" font-weight="600" letter-spacing="4">AI × CYBER SECURITY</text>
+  <text x="50" y="270" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Security tooling  /  Code audit  /  Agentic workflows</text>
+
+  <g transform="translate(920 112)">
+    <rect width="228" height="120" rx="14" fill="#0F172A" fill-opacity="0.78" stroke="#22D3EE" stroke-opacity="0.28"/>
+    <text x="22" y="31" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">RESEARCH LOG</text>
+    <text x="22" y="61" fill="#4ADE80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">&gt; observe</text>
+    <text x="22" y="85" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">&gt; build</text>
+    <text x="22" y="109" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">&gt; defend</text>
+    <rect x="151" y="97" width="10" height="16" fill="#4ADE80">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
