@@ -52,5 +52,5 @@
 ---
 
 <div align="center">
-  <sub><code>Build with curiosity. Test with permission.</code></sub>
+  <sub><code>$ echo "Build with curiosity. Test with permission."</code></sub>
 </div>
