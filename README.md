@@ -11,15 +11,6 @@
 
 ---
 
-### `$ cat focus.txt`
-
-```text
-[01] Application Security   Web security, attack surface discovery
-[02] Code Audit             Java and application source review
-[03] Security Automation    Fast, focused tooling for repetitive work
-[04] AI-native Engineering  Agents, skills, and developer workflows
-```
-
 ### `$ ls projects/`
 
 | Project | What it is | Stack |
