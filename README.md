@@ -29,6 +29,16 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="https://mydxx.github.io/dino/" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dino-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/dino-light.svg" />
+      <img src="./assets/dino-light.svg" width="100%" alt="Chrome Dino Runner - Click to Play" />
+    </picture>
+  </a>
+</p>
+
 ---
 
 <div align="center">

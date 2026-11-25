@@ -1,0 +1,228 @@
+<svg width="840" height="186" viewBox="0 0 840 186" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chrome Dino Runner - Click to Play">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .dino-jump { animation: dinoJump 5.6s linear infinite; }
+    .leg-a { animation: legStepA 0.22s steps(1, end) infinite; }
+    .leg-b { animation: legStepB 0.22s steps(1, end) infinite; }
+    .obs-1 { animation: moveObs1 5.6s linear infinite; }
+    .obs-2 { animation: moveObs2 5.6s linear infinite; }
+    .ground-track { animation: scrollGround 2.1s linear infinite; }
+    .cloud-1 { animation: driftCloud1 18s linear infinite; }
+    .cloud-2 { animation: driftCloud2 24s linear infinite; }
+    .blink { animation: blinkDot 1.2s steps(2, start) infinite; }
+
+    @keyframes dinoJump {
+      0%, 31%   { transform: translateY(0px); }
+      35%       { transform: translateY(-46px); }
+      38.5%     { transform: translateY(-60px); }
+      42%       { transform: translateY(-44px); }
+      46%, 81%  { transform: translateY(0px); }
+      85%       { transform: translateY(-48px); }
+      88.5%     { transform: translateY(-62px); }
+      92%       { transform: translateY(-46px); }
+      96%, 100% { transform: translateY(0px); }
+    }
+    @keyframes legStepA { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes legStepB { 0% { opacity: 0; } 50% { opacity: 1; } }
+    @keyframes moveObs1 {
+      0%     { transform: translateX(880px); opacity: 1; }
+      50%    { transform: translateX(-120px); opacity: 1; }
+      50.1%  { transform: translateX(880px); opacity: 0; }
+      100%   { transform: translateX(880px); opacity: 0; }
+    }
+    @keyframes moveObs2 {
+      0%     { transform: translateX(880px); opacity: 0; }
+      49.9%  { transform: translateX(880px); opacity: 0; }
+      50%    { transform: translateX(880px); opacity: 1; }
+      100%   { transform: translateX(-120px); opacity: 1; }
+    }
+    @keyframes scrollGround {
+      0%   { transform: translateX(0px); }
+      100% { transform: translateX(-420px); }
+    }
+    @keyframes driftCloud1 {
+      0%   { transform: translateX(860px); }
+      100% { transform: translateX(-80px); }
+    }
+    @keyframes driftCloud2 {
+      0%    { transform: translateX(520px); }
+      60%   { transform: translateX(-80px); }
+      60.1% { transform: translateX(860px); }
+      100%  { transform: translateX(520px); }
+    }
+    @keyframes blinkDot { to { opacity: 0.25; } }
+  </style>
+
+  <defs>
+    <clipPath id="stageClip">
+      <rect x="1" y="1" width="838" height="184" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="839" height="185" rx="12" fill="#0d1117" stroke="#212823"/>
+
+  <g clip-path="url(#stageClip)">
+    <g class="mono" font-size="11.5" font-weight="600" letter-spacing="1.2">
+      <circle cx="24" cy="24" r="3.5" fill="#3ddc97" class="blink"/>
+      <text x="35" y="28" fill="#7d8880">DINO RUNNER</text>
+      <text x="688" y="28" fill="#7d8880">HI 02026</text>
+      <text x="772" y="28" fill="#d6dcd4">00886</text>
+    </g>
+
+    <g class="cloud-1" fill="#2b3530">
+      <g transform="translate(0, 44)"><rect x="15.0" y="0.0" width="15.0" height="2.5"/>
+      <rect x="10.0" y="2.5" width="5.0" height="2.5"/>
+      <rect x="30.0" y="2.5" width="5.0" height="2.5"/>
+      <rect x="5.0" y="5.0" width="5.0" height="2.5"/>
+      <rect x="35.0" y="5.0" width="5.0" height="2.5"/>
+      <rect x="2.5" y="7.5" width="2.5" height="2.5"/>
+      <rect x="40.0" y="7.5" width="2.5" height="2.5"/>
+      <rect x="0.0" y="10.0" width="45.0" height="2.5"/></g>
+    </g>
+    <g class="cloud-2" fill="#2b3530">
+      <g transform="translate(0, 62)"><rect x="15.0" y="0.0" width="15.0" height="2.5"/>
+      <rect x="10.0" y="2.5" width="5.0" height="2.5"/>
+      <rect x="30.0" y="2.5" width="5.0" height="2.5"/>
+      <rect x="5.0" y="5.0" width="5.0" height="2.5"/>
+      <rect x="35.0" y="5.0" width="5.0" height="2.5"/>
+      <rect x="2.5" y="7.5" width="2.5" height="2.5"/>
+      <rect x="40.0" y="7.5" width="2.5" height="2.5"/>
+      <rect x="0.0" y="10.0" width="45.0" height="2.5"/></g>
+    </g>
+
+    <line x1="0" y1="146" x2="840" y2="146" stroke="#3b4741" stroke-width="1.5"/>
+    <g class="ground-track" fill="#3b4741">
+      <rect x="28" y="151" width="12" height="2"/><rect x="64" y="155" width="5" height="2"/>
+      <rect x="118" y="150" width="18" height="2"/><rect x="172" y="156" width="6" height="2"/>
+      <rect x="225" y="151" width="10" height="2"/><rect x="284" y="154" width="15" height="2"/>
+      <rect x="346" y="150" width="7" height="2"/><rect x="392" y="155" width="11" height="2"/>
+      <rect x="448" y="151" width="12" height="2"/><rect x="484" y="155" width="5" height="2"/>
+      <rect x="538" y="150" width="18" height="2"/><rect x="592" y="156" width="6" height="2"/>
+      <rect x="645" y="151" width="10" height="2"/><rect x="704" y="154" width="15" height="2"/>
+      <rect x="766" y="150" width="7" height="2"/><rect x="812" y="155" width="11" height="2"/>
+      <rect x="868" y="151" width="12" height="2"/><rect x="904" y="155" width="5" height="2"/>
+      <rect x="958" y="150" width="18" height="2"/><rect x="1012" y="156" width="6" height="2"/>
+      <rect x="1065" y="151" width="10" height="2"/><rect x="1124" y="154" width="15" height="2"/>
+      <rect x="1186" y="150" width="7" height="2"/><rect x="1232" y="155" width="11" height="2"/>
+    </g>
+
+    <g class="obs-1" fill="#3ddc97">
+      <g transform="translate(0, 110)"><rect x="9" y="0" width="6" height="3"/>
+      <rect x="9" y="3" width="6" height="3"/>
+      <rect x="0" y="6" width="3" height="3"/>
+      <rect x="9" y="6" width="6" height="3"/>
+      <rect x="0" y="9" width="3" height="3"/>
+      <rect x="9" y="9" width="6" height="3"/>
+      <rect x="21" y="9" width="3" height="3"/>
+      <rect x="0" y="12" width="3" height="3"/>
+      <rect x="9" y="12" width="6" height="3"/>
+      <rect x="21" y="12" width="3" height="3"/>
+      <rect x="0" y="15" width="12" height="3"/>
+      <rect x="18" y="15" width="6" height="3"/>
+      <rect x="9" y="18" width="12" height="3"/>
+      <rect x="9" y="21" width="6" height="3"/>
+      <rect x="9" y="24" width="6" height="3"/>
+      <rect x="9" y="27" width="6" height="3"/>
+      <rect x="9" y="30" width="6" height="3"/>
+      <rect x="9" y="33" width="6" height="3"/></g>
+    </g>
+    <g class="obs-2" fill="#d6dcd4">
+      <g transform="translate(0, 110)"><rect x="8.399999999999999" y="2.0" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="4.8" width="5.6" height="2.8"/>
+      <rect x="0.0" y="7.6" width="2.8" height="2.8"/>
+      <rect x="8.399999999999999" y="7.6" width="5.6" height="2.8"/>
+      <rect x="0.0" y="10.399999999999999" width="2.8" height="2.8"/>
+      <rect x="8.399999999999999" y="10.399999999999999" width="5.6" height="2.8"/>
+      <rect x="19.599999999999998" y="10.399999999999999" width="2.8" height="2.8"/>
+      <rect x="0.0" y="13.2" width="2.8" height="2.8"/>
+      <rect x="8.399999999999999" y="13.2" width="5.6" height="2.8"/>
+      <rect x="19.599999999999998" y="13.2" width="2.8" height="2.8"/>
+      <rect x="0.0" y="16.0" width="11.2" height="2.8"/>
+      <rect x="16.799999999999997" y="16.0" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="18.799999999999997" width="11.2" height="2.8"/>
+      <rect x="8.399999999999999" y="21.599999999999998" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="24.4" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="27.2" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="30.0" width="5.6" height="2.8"/>
+      <rect x="8.399999999999999" y="32.8" width="5.6" height="2.8"/>
+      <rect x="29.2" y="15.0" width="5.2" height="2.6"/>
+      <rect x="24.0" y="17.6" width="2.6" height="2.6"/>
+      <rect x="29.2" y="17.6" width="5.2" height="2.6"/>
+      <rect x="24.0" y="20.2" width="2.6" height="2.6"/>
+      <rect x="29.2" y="20.2" width="5.2" height="2.6"/>
+      <rect x="37.0" y="20.2" width="2.6" height="2.6"/>
+      <rect x="24.0" y="22.8" width="10.4" height="2.6"/>
+      <rect x="37.0" y="22.8" width="2.6" height="2.6"/>
+      <rect x="29.2" y="25.4" width="10.4" height="2.6"/>
+      <rect x="29.2" y="28.0" width="5.2" height="2.6"/>
+      <rect x="29.2" y="30.6" width="5.2" height="2.6"/>
+      <rect x="29.2" y="33.2" width="5.2" height="2.6"/>
+      <rect x="49.0" y="0.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="3.0" width="6.0" height="3.0"/>
+      <rect x="40.0" y="6.0" width="3.0" height="3.0"/>
+      <rect x="49.0" y="6.0" width="6.0" height="3.0"/>
+      <rect x="40.0" y="9.0" width="3.0" height="3.0"/>
+      <rect x="49.0" y="9.0" width="6.0" height="3.0"/>
+      <rect x="61.0" y="9.0" width="3.0" height="3.0"/>
+      <rect x="40.0" y="12.0" width="3.0" height="3.0"/>
+      <rect x="49.0" y="12.0" width="6.0" height="3.0"/>
+      <rect x="61.0" y="12.0" width="3.0" height="3.0"/>
+      <rect x="40.0" y="15.0" width="12.0" height="3.0"/>
+      <rect x="58.0" y="15.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="18.0" width="12.0" height="3.0"/>
+      <rect x="49.0" y="21.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="24.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="27.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="30.0" width="6.0" height="3.0"/>
+      <rect x="49.0" y="33.0" width="6.0" height="3.0"/></g>
+    </g>
+
+    <g transform="translate(86, 98)">
+      <g class="dino-jump" fill="#d6dcd4">
+        <rect x="22.0" y="0.0" width="17.6" height="2.2"/>
+      <rect x="19.8" y="2.2" width="22.0" height="2.2"/>
+      <rect x="19.8" y="4.4" width="4.4" height="2.2"/>
+      <rect x="26.400000000000002" y="4.4" width="15.400000000000002" height="2.2"/>
+      <rect x="19.8" y="6.6000000000000005" width="22.0" height="2.2"/>
+      <rect x="19.8" y="8.8" width="22.0" height="2.2"/>
+      <rect x="19.8" y="11.0" width="11.0" height="2.2"/>
+      <rect x="19.8" y="13.200000000000001" width="17.6" height="2.2"/>
+      <rect x="0.0" y="15.400000000000002" width="2.2" height="2.2"/>
+      <rect x="17.6" y="15.400000000000002" width="11.0" height="2.2"/>
+      <rect x="0.0" y="17.6" width="2.2" height="2.2"/>
+      <rect x="15.400000000000002" y="17.6" width="15.400000000000002" height="2.2"/>
+      <rect x="0.0" y="19.8" width="4.4" height="2.2"/>
+      <rect x="13.200000000000001" y="19.8" width="19.8" height="2.2"/>
+      <rect x="35.2" y="19.8" width="4.4" height="2.2"/>
+      <rect x="0.0" y="22.0" width="6.6000000000000005" height="2.2"/>
+      <rect x="11.0" y="22.0" width="22.0" height="2.2"/>
+      <rect x="37.400000000000006" y="22.0" width="2.2" height="2.2"/>
+      <rect x="0.0" y="24.200000000000003" width="33.0" height="2.2"/>
+      <rect x="0.0" y="26.400000000000002" width="33.0" height="2.2"/>
+      <rect x="2.2" y="28.6" width="28.6" height="2.2"/>
+      <rect x="4.4" y="30.800000000000004" width="24.200000000000003" height="2.2"/>
+      <rect x="6.6000000000000005" y="33.0" width="19.8" height="2.2"/>
+      <rect x="8.8" y="35.2" width="15.400000000000002" height="2.2"/>
+      <rect x="11.0" y="37.400000000000006" width="13.200000000000001" height="2.2"/>
+        <g class="leg-a"><rect x="11.0" y="39.6" width="6.6000000000000005" height="2.2"/>
+      <rect x="22.0" y="39.6" width="4.4" height="2.2"/>
+      <rect x="11.0" y="41.800000000000004" width="4.4" height="2.2"/>
+      <rect x="24.200000000000003" y="41.800000000000004" width="4.4" height="2.2"/>
+      <rect x="11.0" y="44.0" width="4.4" height="2.2"/>
+      <rect x="11.0" y="46.2" width="6.6000000000000005" height="2.2"/></g>
+        <g class="leg-b"><rect x="11.0" y="39.6" width="4.4" height="2.2"/>
+      <rect x="22.0" y="39.6" width="6.6000000000000005" height="2.2"/>
+      <rect x="13.200000000000001" y="41.800000000000004" width="4.4" height="2.2"/>
+      <rect x="24.200000000000003" y="41.800000000000004" width="4.4" height="2.2"/>
+      <rect x="24.200000000000003" y="44.0" width="4.4" height="2.2"/>
+      <rect x="24.200000000000003" y="46.2" width="6.6000000000000005" height="2.2"/></g>
+      </g>
+    </g>
+
+    <g transform="translate(574, 158)">
+      <rect x="0" y="0" width="248" height="20" rx="6" fill="#131c18" stroke="#224638"/>
+      <text x="12" y="13.5" class="mono" font-size="10" fill="#3ddc97">CLICK TO PLAY</text>
+      <text x="104" y="13.5" class="mono" font-size="10" fill="#7d8880">mydxx.github.io/dino ↗</text>
+    </g>
+  </g>
+</svg>
